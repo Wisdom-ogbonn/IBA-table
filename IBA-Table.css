@@ -1,0 +1,22 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tbody > tr > td{
+    border: 1px solid #1E1F22;
+}
+
+.empty-box{
+    height: 50px;
+}
+
+.rotate{
+    writing-mode: vertical-rl;
+    white-space: nowrap;
+    transform: rotate(180deg);
+    -webkit-writing-mode: vertical-rl;
+    text-align: center;
+}
+
+
